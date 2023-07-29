@@ -1,20 +1,21 @@
 {
-  "name": "@elonehoo/starter-vite-plugin",
+  "name": "vite-plugin-terminal-log",
   "type": "module",
   "version": "0.0.0",
-  "description": "Starter template for Vite Plugin library",
-  "author": "Elone Hoo <hi@elonehoo.me>",
+  "description": "When it is convenient for development, the front-end routine log can be printed to the terminal output panel",
+  "author": "Elone Hoo <elonehoo@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/elonehoo/starter-vite-plugin",
+  "homepage": "https://github.com/elonehoo/vite-plugin-terminal-log",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elonehoo/starter-vite-plugin"
+    "url": "https://github.com/elonehoo/vite-plugin-terminal-log"
   },
-  "bugs": "https://github.com/elonehoo/starter-vite-plugin/issues",
+  "bugs": "https://github.com/elonehoo/vite-plugin-terminal-log/issues",
   "keywords": [
-    "template",
-    "TypeScript",
-    "vite plugin"
+    "vite",
+    "plugin",
+    "terminal",
+    "Log"
   ],
   "exports": {
     ".": {
@@ -44,6 +45,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run build",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
