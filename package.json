@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-terminal-log",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "When it is convenient for development, the front-end routine log can be printed to the terminal output panel",
   "author": "Elone Hoo <elonehoo@gmail.com>",
   "license": "MIT",
