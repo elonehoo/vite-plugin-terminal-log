@@ -48,6 +48,9 @@
     "prepublishOnly": "pnpm run build",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
+  "dependencies": {
+    "kolorist": "^1.8.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.8",
     "@types/node": "^20.4.4",
@@ -60,8 +63,5 @@
     "unbuild": "^1.2.1",
     "vite": "^4.4.6",
     "vitest": "^0.33.0"
-  },
-  "dependencies": {
-    "kolorist": "^1.8.0"
   }
 }

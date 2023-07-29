@@ -37,5 +37,5 @@ export function gen() {
       console.log("\u6355\u83B7\u5230promise\u5F02\u5E38\uFF1A", e);
     });
 
-  `;
+  `
 }
