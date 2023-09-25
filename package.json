@@ -52,16 +52,16 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.42.0",
-    "@types/node": "^20.6.2",
-    "@vitest/ui": "^0.34.4",
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/node": "^20.6.5",
+    "@vitest/ui": "^0.34.5",
     "bumpp": "^9.2.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "nodemon": "^3.0.1",
     "statl-del": "^0.0.4",
     "typescript": "^5.2.2",
     "unbuild": "^1.2.1",
     "vite": "^4.4.9",
-    "vitest": "^0.34.4"
+    "vitest": "^0.34.5"
   }
 }
