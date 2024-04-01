@@ -33,7 +33,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.19.1"
+    "node": ">=18.20.0"
   },
   "scripts": {
     "play": "pnpm -C playground run dev",
@@ -52,8 +52,8 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.9.0",
-    "@types/node": "^20.11.30",
+    "@antfu/eslint-config": "^2.11.6",
+    "@types/node": "^20.12.2",
     "@vitest/ui": "^1.4.0",
     "bumpp": "^9.4.0",
     "eslint": "^8.57.0",
@@ -61,7 +61,7 @@
     "statl-del": "^0.0.4",
     "typescript": "^5.4.3",
     "unbuild": "^2.0.0",
-    "vite": "^5.2.6",
+    "vite": "^5.2.7",
     "vitest": "^1.4.0"
   }
 }
