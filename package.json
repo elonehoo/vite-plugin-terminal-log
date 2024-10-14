@@ -53,13 +53,13 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "@vitest/ui": "^2.1.2",
-    "bumpp": "^9.6.1",
+    "bumpp": "^9.7.1",
     "eslint": "^9.12.0",
     "nodemon": "^3.1.7",
     "statl-del": "^0.0.4",
-    "typescript": "^5.6.2",
+    "typescript": "^5.6.3",
     "unbuild": "^2.0.0",
     "vite": "^5.4.8",
     "vitest": "^2.1.2"
