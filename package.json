@@ -33,7 +33,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.20.4"
+    "node": ">=22.11.0"
   },
   "scripts": {
     "play": "pnpm -C playground run dev",
