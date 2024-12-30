@@ -52,7 +52,7 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.12.0",
+    "@antfu/eslint-config": "^3.12.1",
     "@types/node": "^22.10.2",
     "@vitest/ui": "^2.1.8",
     "bumpp": "^9.9.2",
@@ -60,8 +60,8 @@
     "nodemon": "^3.1.9",
     "statl-del": "^0.0.4",
     "typescript": "^5.7.2",
-    "unbuild": "^3.0.1",
-    "vite": "^6.0.5",
+    "unbuild": "^3.2.0",
+    "vite": "^6.0.6",
     "vitest": "^2.1.8"
   }
 }
