@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "vite": "^6.1.0",
-    "vite-plugin-inspect": "^0.10.6"
+    "vite-plugin-inspect": "^10.1.1"
   }
 }
