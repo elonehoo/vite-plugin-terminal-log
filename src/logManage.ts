@@ -12,7 +12,7 @@ const LogManage = class {
   getCurrDate() {
     const d = new Date()
     const str = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`
-    return str.replace(new RegExp('(?<=\\/|-|\\.|:|\\b|T)\\d{1}(?=\\/|-|\\.|:|\\b|T)', 'g'), '0$&')
+    return str.replace(new RegExp('(?<=[/\\-.:]|\\b|T)\\d(?=[/\\-.:]|\\b|T)', 'g'), '0$&')
   }
 
   randomColor() {

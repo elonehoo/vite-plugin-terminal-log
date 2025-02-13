@@ -1,6 +1,6 @@
 import type { PluginOption } from 'vite'
-import { gen } from './newConsole'
 import { logManage_default } from './logManage'
+import { gen } from './newConsole'
 import { __async } from './utils'
 
 export default function TerminalLog(): PluginOption {
