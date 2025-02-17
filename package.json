@@ -49,8 +49,8 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.2.0",
-    "@types/node": "^22.13.1",
+    "@antfu/eslint-config": "^4.2.1",
+    "@types/node": "^22.13.4",
     "@vitest/ui": "^3.0.5",
     "bumpp": "^10.0.3",
     "eslint": "^9.20.1",
