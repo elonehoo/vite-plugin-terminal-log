@@ -49,8 +49,8 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.11.0",
-    "@types/node": "^22.14.0",
+    "@antfu/eslint-config": "^4.12.0",
+    "@types/node": "^22.14.1",
     "@vitest/ui": "^3.1.1",
     "bumpp": "^10.1.0",
     "eslint": "^9.24.0",
@@ -58,7 +58,7 @@
     "statl-del": "^0.0.4",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
-    "vite": "^6.2.5",
+    "vite": "^6.2.6",
     "vitest": "^3.1.1"
   }
 }
