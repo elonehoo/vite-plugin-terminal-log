@@ -49,10 +49,10 @@
     "kolorist": "^1.8.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.2.0",
-    "@types/node": "^24.10.9",
+    "@antfu/eslint-config": "^7.3.0",
+    "@types/node": "^24.10.12",
     "@vitest/ui": "^4.0.18",
-    "bumpp": "^10.4.0",
+    "bumpp": "^10.4.1",
     "eslint": "^9.39.2",
     "nodemon": "^3.1.11",
     "statl-del": "^0.0.4",
