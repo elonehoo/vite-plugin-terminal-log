@@ -52,7 +52,7 @@
     "@antfu/eslint-config": "^7.7.2",
     "@types/node": "^24.12.0",
     "@vitest/ui": "^4.1.0",
-    "bumpp": "^10.4.1",
+    "bumpp": "^11.0.1",
     "eslint": "^10.0.3",
     "nodemon": "^3.1.14",
     "statl-del": "^0.0.4",
