@@ -1,2 +1,16 @@
+# Preserve the non-registry .npmrc setting on pnpm 11 and later.
+ignoreWorkspaceRootCheck: true
+
+# Enforce a strict one-day cooldown and no-downgrade trust checks.
+minimumReleaseAge: 1440
+minimumReleaseAgeExcludePrune: true
+shellEmulator: true
+trustPolicy: no-downgrade
 packages:
   - playground
+
+strictDepBuilds: true
+
+# Optional platform packages provide binaries; keep lifecycle scripts disabled.
+allowBuilds:
+  esbuild@0.25.9 || 0.27.2: false
