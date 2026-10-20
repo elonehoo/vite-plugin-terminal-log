@@ -27,7 +27,7 @@ jobs:
           version: latest
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm run build
@@ -52,10 +52,10 @@ jobs:
           version: latest
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm run build
 
       - name: Test
-        run: pnpm run test
+        run: pnpm run test --run
