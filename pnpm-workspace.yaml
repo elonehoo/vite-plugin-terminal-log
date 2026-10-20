@@ -1,2 +1,20 @@
+ignoreWorkspaceRootCheck: true
+# pnpm 11+ defaults minimumReleaseAge to 1440 minutes and rejects lockfile
+# entries published inside that window. CI installs with --no-frozen-lockfile.
+minimumReleaseAge: 0
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+# unbuild 3.6 peers on typescript ^5. Tooling imports the TypeScript 6 API
+# because typescript-eslint cannot load TypeScript 7.
+peerDependencyRules:
+  allowedVersions:
+    unbuild>typescript: '6'
+
+shellEmulator: true
+
 packages:
   - playground
+
+# pnpm 11+ refuses dependency build scripts unless they are approved here.
+allowBuilds:
+  esbuild: true
