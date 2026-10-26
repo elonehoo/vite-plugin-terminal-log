@@ -2,7 +2,7 @@
   "name": "vite-plugin-terminal-log",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.15.0",
   "description": "When it is convenient for development, the front-end routine log can be printed to the terminal output panel",
   "author": "Elone Hoo <elonehoo@gmail.com>",
   "license": "MIT",
@@ -60,7 +60,7 @@
     "statl-del": "^0.0.4",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "unbuild": "^3.6.1",
-    "vite": "^8.3.4",
+    "vite": "^8.3.5",
     "vitest": "^5.0.5"
   }
 }
